@@ -1,3 +1,9 @@
+Date 2/12/2024
+6.1.55-2.2.2
+- Patch release for Kernel 6.1
+- Supports i.MX 6, 7, 8, 8M, 8ULP, 91P and 93 Series.
+- Graphics upgrade from 6.4.11.p2.2.2 to 6.4.11.p2.2.4.
+
 Date 5/17/2024
 6.1.55-2.2.1
 - Patch release for Kernel 6.1 
