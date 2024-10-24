@@ -5,6 +5,90 @@ Key Features of the Vivante 6.x Driver Series
       And Vivante GC7000XS* GPU core has been certified by Khronos as an OpenGL ES 3.2 compliant product.
     - Backward Compatible with 5.x and 4.x Drivers. Existing OpenGL ES 3.x/2.0 applications can run on these drivers without any changes.
 
+6.4.11P2 GA for L6.1.55-2.2.2
+======================
+Key Features
+    - VULKAN API 1.3 (iMX8ULP)
+    - Weston 11.0.3 (iMX8 and iMX9)
+    - Weston 10.0.5 (iMX6 and iMX7)
+
+Improvements and Bug fixes
+
+IMX-3234    Enable USC reset
+IMX-3262    [8MM] Fixed 3D GPU crash on MIPI PANEL
+IMX-3281    fix ktime_get_real_ts64 improper usage
+IMX-3201    [Android14]Android 14 graphics CTS issues
+IMX-3270    Modify runtime pm in gpu subsystem
+IMX-3225    Generate high precision lib for OCL CTS
+IMX-3202    Partial fix for new OCL3.0 case
+IMX-2109    [8QM/8MN/8DX/8QXP/865S] OpenCL test using piglit framework with 305 cases failed.   ==>Partial fix
+IMX-3184    [8MP/8MN]Fixed wl warnings issue, by refine egl_surface sub object destroy logic.
+MA-22360    Support both HIDL and stable-C version mapper when get dataspace of buffer
+MGS-7676    Fixed a coverity Use-after-free high impact issue
+MGS-7640    Fixed weston-simple-dmabuf-feedback aborted issue
+MA-22404    Fixed the FPS decline issue on 8qxp when play video
+IMX-3013    [android 13] skiaglthreaded 20% performance drop compared with gles render
+IMX-3276    Fixed vkCreateInstance fails in a forked process
+MA-22507    Fixed the mosaics in color correction mode issue on all imx8 boards.
+IMX-3248    Fixed gpu core dump when running the attached gles3 application
+IMX-3246    [Android14] Fixed a case of CtsSurfaceControlTests failed on all boards
+IMX-3239    [Android14] Fixed OpenCL crash issue with physical cacheable memory
+IMX-3299    [Android14] OpenCL freeze and crash issue with 6.6 kernel
+IMX-3289    Weston-simple-dmabuf-feedback aborted after running on 8qm wayland
+IMX-3282    [8QXP] Add EGL_EXT_device_enumeration EGL_EXT_platform_device support
+MGS-7842    Add license for some headers.
+MGS-7844    Update a part of hal/inc headers license to MIT
+MGS-7857    Roll back g2d version from 2.2 to 2.1
+
+6.4.11P2 GA for L6.1.55-2.2.1
+======================
+Key Features
+    - VULKAN API 1.3 (iMX8ULP)
+    - Weston 11.0.3 (iMX8 and iMX9)
+    - Weston 10.0.5 (iMX6 and iMX7)
+
+Improvements and Bug fixes
+
+IMX-3228    Disable BUILD_OPTION_EGL_API_FB build option for aarch64 wayland
+IMX-3080    glslsandbox-player issues 
+IMX-2109    [8QM/8MN/8DX/8QXP/865S] OpenCL test using piglit framework with 305 cases failed.   ==>Partial fix
+IMX-3173    Stack-buffer-overflow in running vkcts cases ==>Parial fix
+IMX-3184    [8MP/8MN] warning log is printed when playback some streams ==>Partial fix
+IMX-3186    Test failed in the case Vulkan.NativeWindowTest  
+IMX-3201    [Android14]Android 14 graphics CTS issues    ==>Partial fix
+IMX-3214    [Android-14]vulkan 1.3 is not enabled in android  ==>Partial fix
+IMX-3198    [8ULP] Met vulkan cts hang in vulkan 1.3 api update 
+IMX-3236    [L6.6] Build break in __pte_offset_map_lock  
+IMX-3212    Has memory leak in running opencl cts with ASAN 
+IMX-3213    [Android13]clBuildProgram memory leak in OpenCL
+IMX-3039    [8MP] Output has defects from second frame when running vulkan sascha case computeraytracing 
+IMX-3037    Output has defects when running vulkan sascha case computeraytracing 
+IMX-3060    [8QM] Opencv tapi test fail 
+IMX-3152    [QNX] Add InterruptAttachThread support in GPU driver   
+IMX-3164    [QNX] Update shared memory allocation 
+IMX-3199    [Android13] 8mp Android 3D drawing issue  
+IMX-2956    [8MQ/8MP]GPU: opencv perf stress test with opencv_perf_gapi test failed.  Wont’t fix, the case issue’s workaround have regression.
+IMX-3218    [L6.4] Clear fd/handle callbacks in struct viv_drm_driver   
+IMX-3237    [Chromium] Fix Chromium crash when upgrade to 116.0.5845.187
+MGS-7378    Disable GL4 in vivante
+IMX-3227    Fixed VivanteIDE vProfiler does not work with Chromium
+IMX-3209    Fixed serval cases in vulkan_sample met segfault 
+IMX-3255    Fixed GPU shader clk fails to reset when cooling event finishes   ==>Partial fix
+IMX-3224    Support AIDL neuralnetworks HAL     ==>Partial fix
+IMX-3229    Enable shader frequency scaling feature to avoid GPU/NPU device overheat
+IMX-3195    Fixed 4Kp60 video playback is tearing and not smooth when not full-screen   =>fix regression
+IMX-3263    [MX8MP]Fixed segmentation fault of libVSC.so
+IMX-3270    Modify CONFIG_PM_RUNTIME version usage issues
+IMX-3268    [L6.7] update MAX_ORDER to MAX_PAGE_ORDER
+IMX-3267    Update the egl/gles extension for latest gpu release
+IMX-3261    [L6.7] Fixed build break caused by missing-prototypes
+IMX-3243    [8ULP_EVK] GPU/XWLD: Fixed gpu hang when running opencv_test_tracking
+IMX-3246    [Android14] Fixed a case of CtsSurfaceControlTests failed on all boards
+MGS-7295    Use shader patch binary to avoid SPV decode and compile
+MGS-7523    Fixed piglit clBuildProgram failure
+MGS-7524    Enable USC reset for i.MX8MQ/QXP GPU only
+MA-21754    Fixed GPU crash issue when run media cts
+
 6.4.11P2 GA for L6.1.55-2.2.0
 ======================
 Key Features
