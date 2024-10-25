@@ -20,19 +20,19 @@
   <project path="vendor/nxp-opensource/imx-lib" name="imx-lib" remote="imx-linux-sdk" revision="refs/tags/automotive-14.0.0_2.1.0" />
   <project path="vendor/nxp-opensource/imx-mkimage" name="imx-mkimage" remote="imx-linux-sdk" revision="refs/tags/automotive-14.0.0_2.1.0" />
   <project path="vendor/nxp-opensource/kernel_imx" name="linux-imx" remote="imx-linux-sdk" revision="refs/tags/automotive-14.0.0_2.1.0" />
-  <project path="vendor/nxp-opensource/libcamera" name="libcamera" remote="imx-linux-sdk" revision="refs/tags/automotive-14.0.0_2.1.0" />
   <project path="vendor/nxp-opensource/libdrm-imx" name="libdrm-imx" remote="imx-linux-sdk" revision="refs/tags/automotive-14.0.0_2.1.0" />
   <project path="vendor/nxp-opensource/nxp-mwifiex" name="mwifiex" remote="imx-linux-sdk" revision="refs/tags/automotive-14.0.0_2.1.0" />
   <project path="vendor/nxp-opensource/verisilicon_sw_isp_vvcam" name="isp-vvcam" remote="imx-linux-sdk" revision="refs/tags/automotive-14.0.0_2.1.0" />
-  <project path="vendor/nxp/neutron-software-stack" name="neutron-software-stack" remote="imx-linux-sdk" revision="refs/tags/automotive-14.0.0_2.1.0" />
+  <project path="vendor/nxp/neutron-software-stack" name="neutron" remote="imx-linux-sdk" revision="refs/tags/automotive-14.0.0_2.1.0" />
   <project path="vendor/nxp/vpu_wrapper" name="imx-vpuwrap" remote="imx-linux-sdk" revision="refs/tags/automotive-14.0.0_2.1.0" />
+  <project path="external/libcamera" name="libcamera" remote="imx-linux-sdk" revision="refs/tags/automotive-14.0.0_2.1.0" />
 
   <project path="device/nxp" name="android-imx_device_fsl" remote="imx-android" revision="refs/tags/automotive-14.0.0_2.1.0" >
     <linkfile src="common/tools/imx-make.sh" dest="imx-make.sh" />
   </project>
   <project path="vendor/nxp-opensource/imx" name="android-imx_platform_hardware_imx" remote="imx-android" revision="refs/tags/automotive-14.0.0_2.1.0" />
   <project path="vendor/nxp-opensource/fsl_imx_demo" name="android-imx_platform_packages_apps_fsl_imx_demo" remote="imx-android" revision="refs/tags/automotive-14.0.0_2.1.0" />
-  <project path="vendor/nxp-opensource/imx-gki" name="imx-gki" remote="imx-android" revision="refs/tags/automotive-14.0.0_2.1.0" />
+  <project path="vendor/nxp-opensource/imx-gki" name="android-imx_imx-gki" remote="imx-android" revision="refs/tags/automotive-14.0.0_2.1.0" />
   <project path="hardware/nxp/libbt" name="android-imx_platform_hardware_nxp_libbt" remote="imx-android" revision="refs/tags/automotive-14.0.0_2.1.0" />
   <project path="hardware/nxp/wlan" name="android-imx_platform_hardware_nxp_wlan" remote="imx-android" revision="refs/tags/automotive-14.0.0_2.1.0" />
 
@@ -52,7 +52,7 @@
     <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
   </project>
   <project path="bootable/recovery" name="aosp_platform_bootable_recovery" remote="imx-android" revision="refs/tags/automotive-14.0.0_2.1.0" />
-  <project path="development" name="aosp_platform_development" remote="imx-android" revision="refs/tags/automotive-14.0.0_2.1.0" />
+  <project path="development" name="aosp_platform_development" remote="imx-android" revision="refs/tags/automotive-14.0.0_2.1.0_gh" />
   <project path="external/wpa_supplicant_8" name="aosp_platform_external_wpa_supplicant_8" remote="imx-android" revision="refs/tags/automotive-14.0.0_2.1.0" />
   <project path="external/tinyalsa" name="aosp_platform_external_tinyalsa" remote="imx-android" revision="refs/tags/automotive-14.0.0_2.1.0" />
   <project path="frameworks/av" name="aosp_platform_frameworks_av" remote="imx-android" revision="refs/tags/automotive-14.0.0_2.1.0" />
@@ -75,7 +75,7 @@
   <project path="system/teeui" name="aosp_platform_system_teeui" remote="imx-android" revision="refs/tags/automotive-14.0.0_2.1.0" />
   <project path="packages/inputmethods/LatinIME" name="aosp_platform_packages_inputmethods_LatinIME" remote="imx-android" revision="refs/tags/automotive-14.0.0_2.1.0" />
   <project path="kernel/configs" name="aosp_kernel_configs" remote="imx-android" revision="refs/tags/automotive-14.0.0_2.1.0" />
-  <project path="packages/services/Car" name="aosp_platform_packages_services_Car" remote="imx-android" revision="refs/tags/automotive-14.0.0_2.1.0" />
+  <project path="packages/services/Car" name="aosp_platform_packages_services_Car" remote="imx-android" revision="refs/tags/automotive-14.0.0_2.1.0_gh" />
   <project path="packages/modules/Bluetooth" name="aosp_platform_packages_modules_Bluetooth" remote="imx-android" revision="refs/tags/automotive-14.0.0_2.1.0" />
   <project path="packages/apps/Car/Cluster" name="aosp_platform_packages_apps_Car_Cluster" remote="imx-android" revision="refs/tags/automotive-14.0.0_2.1.0" />
   <project path="packages/apps/Car/Launcher" name="aosp_platform_packages_apps_Car_Launcher" remote="imx-android" revision="refs/tags/automotive-14.0.0_2.1.0" />
