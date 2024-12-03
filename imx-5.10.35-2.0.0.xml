@@ -11,10 +11,9 @@
   <remote name="python2" fetch="https://git.openembedded.org"/>
   <remote name="rust" fetch="https://github.com/meta-rust"/>
   <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
-  <remote name="oe-core" fetch="https://git.openembedded.org/openembedded-core"/>
-  
+
   <default sync-j="2"/>
-  
+
   <project name="fsl-community-bsp-base" path="sources/base" remote="community" revision="5a551f453260bd19895e4d847877874eaa51fde3">
     <linkfile src="README" dest="README"/>
     <linkfile src="setup-environment" dest="setup-environment"/>
@@ -34,6 +33,6 @@
   <project name="meta-qt5" path="sources/meta-qt5" remote="QT5" revision="a00af3eae082b772469d9dd21b2371dd4d237684"/>
   <project name="meta-timesys" path="sources/meta-timesys" remote="Timesys" revision="00f81fbdf7fba2a09ff83d14fc3b040e9ae63b42"/>
   <project name="poky" path="sources/poky" remote="yocto" revision="58cbdaecf75b0248f96780b6882e8d4f232d038a"/>
-  <project name="meta-oe-core" path="sources/meta-oe-core" remote="oe-core" revision="786d3aa313e31a718acc9611ba3adb60573ec458"/>
+  <project name="meta-oe-core" path="sources/openembedded-core" remote="oe" revision="786d3aa313e31a718acc9611ba3adb60573ec458"/>
 
 </manifest>
