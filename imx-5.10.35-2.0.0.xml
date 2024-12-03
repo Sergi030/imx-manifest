@@ -11,7 +11,7 @@
   <remote name="python2" fetch="https://git.openembedded.org"/>
   <remote name="rust" fetch="https://github.com/meta-rust"/>
   <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
-  <remote name="oe-core" fetch="git://git.openembedded.org/openembedded-core"/>
+  <remote name="oe-core" fetch="https://git.openembedded.org/openembedded-core"/>
   
   <default sync-j="2"/>
   
