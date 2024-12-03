@@ -34,6 +34,6 @@
   <project name="meta-qt5" path="sources/meta-qt5" remote="QT5" revision="a00af3eae082b772469d9dd21b2371dd4d237684"/>
   <project name="meta-timesys" path="sources/meta-timesys" remote="Timesys" revision="00f81fbdf7fba2a09ff83d14fc3b040e9ae63b42"/>
   <project name="poky" path="sources/poky" remote="yocto" revision="58cbdaecf75b0248f96780b6882e8d4f232d038a"/>
-  <project name="openembedded-core" path="sources/openembedded-core" remote="oe" revision="786d3aa313e31a718acc9611ba3adb60573ec458"/>
+  <project name="openembedded-core" path="sources/openembedded-core" remote="oe" revision="fbbb689c8df7f82644b8a9bc5bb6884bc6516660"/>
 
 </manifest>
